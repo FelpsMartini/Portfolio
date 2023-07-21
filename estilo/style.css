@@ -183,22 +183,40 @@
     border-top: 1px solid black;
 }
 
-.index_scroll_projetos{
+.index_scroll_projects{
     width: 100%;
     height: 100vh;
     background-color: #af9e80;
     display: flex;
 }
 
-.index_scroll_projetos{
+.index_scroll_projects{
     width: 50%;
-    height: 850px;
+    height: 900px;
     background-color: #af9e80;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;   
-    
+}
+
+.index_scroll_projects h2 {
+    font-size: 3.5em;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.index_scroll_projects .project1{
+    width: 400px;
+    height: 580px;
+    border: #192436 4px solid;  
+}
+
+.index_scroll_projects p {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .index_scroll_contato{
@@ -214,9 +232,15 @@
 
 .index_scroll_contato h3{
     font-size: 3.5em;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+
 }
 
 .index_scroll_contato p{
     font-size: 2em;
     font-weight: 300;
+    padding: 1px;
+    
 }
+
