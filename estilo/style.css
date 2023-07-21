@@ -29,6 +29,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .index_conteudo_fixo img{
@@ -168,11 +169,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px black solid;
+    border-top: 1px black solid;
 }
 
 .index_scroll_biografia h2{
     font-size: 4em;
+    border-bottom: 1px black solid;
     
 }
 
@@ -180,7 +182,6 @@
     font-size: 1.5em;
     padding: 20px;
     margin: 0;
-    border-top: 1px solid black;
 }
 
 .index_scroll_projects{
