@@ -163,7 +163,7 @@
 
 .index_scroll_biografia{
     width: 50%;
-    height: auto;
+    height: 950px;
     background-color: #af9e80;
     display: flex;
     flex-direction: column;
@@ -189,11 +189,13 @@
     height: 100vh;
     background-color: #af9e80;
     display: flex;
+    border-top: 1px black solid;
+
 }
 
 .index_scroll_projects{
     width: 50%;
-    height: 900px;
+    height: 950px;
     background-color: #af9e80;
     display: flex;
     flex-direction: column;
@@ -222,7 +224,7 @@
 
 .index_scroll_contato{
     width: 50%;
-    height: 850px;
+    height: 950px;
     background-color: #af9e80;
     display: flex;
     flex-direction: column;
