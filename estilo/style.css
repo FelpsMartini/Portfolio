@@ -107,7 +107,7 @@
 
 
 .index_scroll_apr{
-    height: 900px;
+    height: 950px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -174,7 +174,6 @@
 .index_scroll_biografia h2{
     font-size: 4em;
     
-    
 }
 
 .index_scroll_biografia p{
@@ -184,17 +183,40 @@
     border-top: 1px solid black;
 }
 
-
-
-
-
-
-
-
-
 .index_scroll_projetos{
     width: 100%;
     height: 100vh;
     background-color: #af9e80;
     display: flex;
+}
+
+.index_scroll_projetos{
+    width: 50%;
+    height: 850px;
+    background-color: #af9e80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    
+}
+
+.index_scroll_contato{
+    width: 50%;
+    height: 850px;
+    background-color: #af9e80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+.index_scroll_contato h3{
+    font-size: 3.5em;
+}
+
+.index_scroll_contato p{
+    font-size: 2em;
+    font-weight: 300;
 }
