@@ -222,6 +222,35 @@
     text-align: center;
 }
 
+.index_scroll_projects_buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index_scroll_projects_buttons .btn1 {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #192436;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.index_scroll_projects_buttons2{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #192436;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+    margin-top: 10px;
+}
+
 .index_scroll_contato{
     width: 50%;
     height: 950px;
