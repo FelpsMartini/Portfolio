@@ -63,14 +63,14 @@
     color: #192436;
     position: relative;
     left: 50%;
-    flex: 1;
+    width: 100%;
     
 }
 
 .fixed_scroll_header{
     width: 50%;
     height: 100px;
-    background-color: black;
+    background-color: #5f481c;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -92,17 +92,18 @@
 .fixed_scroll_header ul li{
     align-items: center;
     list-style: none;
-    padding: 30px;
+    padding: 40px;
+    font-size: 1.5em;
 }
 
 .fixed_scroll_header ul li a{
-   color: aliceblue;
+   color: #000308;
     
    
 }
 
 .fixed_scroll_header ul li a:hover{
-    opacity: 0.7;
+    opacity: 0.6;
     
 }
 
@@ -207,6 +208,7 @@
     font-size: 3.5em;
     border-bottom: 1px solid black;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .index_scroll_projects .project1{
@@ -223,32 +225,31 @@
 }
 
 .index_scroll_projects_buttons{
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
-.index_scroll_projects_buttons .btn1 {
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    background-color: #192436;
+.index_scroll_projects_buttons button{
+    background-color:#192436;
     color: aliceblue;
-    padding: 10px;
-    margin-top: 20px;
-    margin-top: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 1.5em;
+    width: 170px;
+    height: 70px;
+
 }
 
-.index_scroll_projects_buttons2{
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    background-color: #192436;
-    color: aliceblue;
-    padding: 10px;
-    margin-top: 20px;
-    margin-top: 10px;
+.index_scroll_projects_buttons button:hover{
+    opacity: 0.8;
 }
 
 .index_scroll_contato{
@@ -276,3 +277,16 @@
     
 }
 
+
+
+/* 1024 */
+
+
+
+
+
+/* 800 */
+
+@media (max-width: 800px) {
+ 
+  }
